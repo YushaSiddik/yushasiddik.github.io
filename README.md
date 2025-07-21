@@ -1,2 +1,2 @@
-# yushasiddik.github.io
-AB Siddik Portfolio
+# AB Siddik's Portfolio
+Abu Bakar Siddik's Portfolio
