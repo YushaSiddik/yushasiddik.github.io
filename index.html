@@ -96,19 +96,19 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="#" class="social-link">
+            <a href="#" class="social-link" target="_blank">
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
+            <a href="#" class="social-link" arget="_blank">
               <ion-icon name="logo-twitter"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="https://www.instagram.com/yusha.siddik" class="social-link">
+            <a href="https://www.instagram.com/yusha.siddik" class="social-link" target="_blank">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
@@ -118,6 +118,87 @@
       </div>
                 
     </aside>
+
+    <!--
+      - Main Content
+    -->
+    <div class="main-content">
+
+        <!--
+          - Navigation Bar
+        -->
+          <nav class="navbar">
+
+            <ul class="navbar-list">
+
+                <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link>About</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link>Resume</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link>Portfolio</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link>Blog</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link>Contact</button>
+                </li>
+
+            </ul>
+
+          </nav>
+
+          <!--
+            - About
+          -->
+
+          <article class="about active" data-page="about">
+
+            <header>
+                <h2 class="h2 article-title">About Me</h2>
+            </header>
+
+            <section class="about-text">
+                <p>
+                  I am Abu Bakar Siddik, a Biomedical Engineer. I have a strong foundation in Applied Statistics and Data Science.
+                  My work connects healthcare, research, and technology. I focus on applying advanced analytical methods to biomedical applications.
+                  I am motivated by the challenge of turning complex data into meaningful insights. These insights can improve diagnostics, medical research, and equipment performance.
+                </p>
+
+                <p>
+                  I have professional experience in equipment management, system installation, compliance evaluation, and field research.
+                  I bring both hands-on technical expertise and analytical problem-solving to my work.
+                  My projects often involve collaboration across disciplines. 
+                  This includes medical imaging, instrumentation, and computational modeling.
+                  I work to ensure that scientific innovation is both reliable and impactful.
+                </p>
+
+                <p>
+                  My research interests include statistical methods and machine learning techniques.
+                  I apply them to uncover patterns in biological data.
+                  I also use them to advance biomedical imaging and support evidence-based decision-making.
+                  Beyond technical skills, I remain adaptive and solution-oriented.
+                  I aim to contribute to the growing field of data-driven healthcare and biomedical innovation.
+                  Let's connect and explore how we can make a positive impact together!
+                </p>
+
+
+            </section>
+
+
+          </article>
+
+        
+
+
+    </div>
 
 
     <section>
@@ -142,6 +223,17 @@
     <p>&copy; 2025 Abu Bakar Siddik. All rights reserved.</p>
   </footer>
 
+  <!--
+    - custom js link
+  -->
+  <script src="./structure/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
 </body>
 
 </html>
