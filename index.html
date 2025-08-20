@@ -1,72 +1,147 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-        <title>Abu Bakar Siddik | Portfolio</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>Abu Bakar Siddik | Portfolio</title>
 
-        <!--
-        - favicon
-        -->
-        <link rel="shortcut icon" href="./structure/images/Honey-Badger.ico" type="image/x-icon">
+    <!--
+    - favicon
+    -->
+    <link rel="shortcut icon" href="./structure/images/Honey-Badger.ico" type="image/x-icon">
 
-        <!--
-          - custom css link
-        -->
-        <link rel="stylesheet" href="./structure/css/style.css">
+    <!--
+    - custom css link
+    -->
+    <link rel="stylesheet" href="./structure/css/style.css">
 
-        <!--
-          - google font link
-        -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!--
+    - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
    
-    </head>
+  </head>
 
-    <body>
+<body>
 
-        <!--
-          - Main Web Page
-        -->
+    <!--
+    - Main Web Page
+    -->
 
-        <main>
+  <main>
+    <!--
+    - Side Bar
+    -->
 
-            <!--
-              - Side Bar
-            -->
+    <aside class="sidebar" data-sidebar>
 
-            <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
 
-                <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./structure/images/my-avatar.png" alt="Abu Bakar Siddik" width="80">
+        </figure>
 
-                    <figure class="avatar-box">
-                        <img src="./structure/images/my-avatar.png" alt="Abu Bakar Siddik" width="80">
-                    </figure>
+        <div class="info-content">
+          <h1 class="name" title="Abu Bakar Siddik">Abu Bakar Siddik</h1>
+
+          <p class="title">Biomedical Engineer & Data Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
                     
+        <div class="separator"></div>
 
-                </div>
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+                            
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:yeshasiddik@gmail.com">yeshasiddik@gmail.com</a>
+            </div>
+                            
+          </li>
+                        
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Dhaka, Bangladesh</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/yusha.siddik" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
                 
-            </aside>
+    </aside>
 
 
-            <section>
-                <h2>About Me</h2>
-                <p>Hi, I'm Abu Bakar Siddik, a passionate learner.</p>
-            </section>
+    <section>
+      <h2>About Me</h2>
+      <p>
+      Hi, I'm Abu Bakar Siddik, a Biomedical Engineer and Data Scientist based in Dhaka, Bangladesh.
+      With a strong passion for technology and innovation, I specialize in data analysis, machine learning, and healthcare solutions.
+      I enjoy solving complex problems, collaborating on interdisciplinary projects, and continuously expanding my skill set in programming and research.
+      Let's connect and explore how we can make a positive impact together!
+      </p>
+    </section>
+            
 
-            <section>
-                <h2>The portfolio is currently getting developed</h2>
-                <p>Please hang in there for more updates!</p>
-            </section>
-        </main>
+    <section>
+      <h2>The portfolio is currently getting developed</h2>
+      <p>Please hang in there for more updates!</p>
+    </section>
+    
+  </main>
 
-        <footer>
-            <p>&copy; 2025 Abu Bakar Siddik. All rights reserved.</p>
-        </footer>
+  <footer>
+    <p>&copy; 2025 Abu Bakar Siddik. All rights reserved.</p>
+  </footer>
 
-    </body>
+</body>
 
 </html>
